@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="home:HomeViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns:local="clr-namespace:AndroidColorsTest.UI.Pages"
+    x:Class="AndroidColorsTest.UI.Pages.HomePage"
+    xmlns:viewModels="clr-namespace:AndroidColorsTest.Core.ViewModels.Home;assembly=MvxForms.Core"
+    xmlns:home="clr-namespace:AndroidColorsTest.Core.ViewModels.Home;assembly=AndroidColorsTest.Core"
+    Title="Main page">
+
+    <TableView VerticalOptions="Fill" HorizontalOptions="Fill" 
+               Intent="Data" 
+               HasUnevenRows="True">
+        <TableRoot>
+            <TableSection Title="Main}">
+                
+            </TableSection>
+
+            <TableSection Title="AdditionalFields}">
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</views:MvxContentPage>
